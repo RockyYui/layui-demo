@@ -12,7 +12,13 @@
 <script>
     layui.config({
         base:'js/modules/'
-    }).use('index');
+    }).extend({
+        ch1:'ch/ch'
+    })
+
+    layui.use('ch1',function (obj) {
+        obj.ok(":jhjha");
+    })
 </script>
 </body>
 </html>

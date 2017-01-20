@@ -14,5 +14,5 @@ layui.define(['layer','form'],function (exports) {
         }
     };
 
-    exports("index",indexObj);//组件名；obj对象
+    exports("ch",indexObj);//组件名；obj对象
 })
